@@ -1,0 +1,87 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-color: #b3adad;
+}
+
+.container{
+   width: 400px;
+   height: 380px;
+   border-radius: 5px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+   background-color: #fff;
+   box-shadow: 2px black;
+}
+
+i{
+   font-size: 65px;
+   color: rgb(52, 52, 236);
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, 50%);
+}
+
+.resend{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+}
+
+.resend h2{
+   color: rgb(52, 52, 236);
+   text-align: center;
+}
+
+.resend p{
+   color: grey;
+   text-align: center;
+   font-size: 13px;
+   margin-top: 10px;
+}
+
+.resend-div{
+   margin-top: 20px;
+}
+
+.resend-div input{
+   background-color: transparent;
+   width: 350px;
+   border: 0;
+   outline: 0;
+   border-bottom: 1.5px solid#dcd7d7;
+}
+
+.res button{
+   width: 300px;
+   margin-left: 20px;
+   padding: 15px;
+   border-radius: 40px;
+   background-color: rgb(95, 95, 241);
+   color: #fff;
+   cursor: pointer;
+   border: none;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.res button:hover{
+   background-color: rgb(60, 60, 247);
+   cursor: pointer;
+   transition: all .4s ease;
+}
+
+.back a{
+   text-decoration: none;
+   outline: none;
+   color: black;
+   text-align: center;
+}

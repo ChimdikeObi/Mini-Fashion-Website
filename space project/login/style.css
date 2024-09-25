@@ -1,0 +1,132 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   width: 100vh;
+   height: 100vh;   
+   background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 50%,
+    rgb(52, 52, 236) 50%,
+    rgb(52, 52, 236) 100%
+  );
+}
+
+.container{
+   width: 100%;
+   position: absolute;
+}
+
+nav{
+   background-color: transparent;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav ul{
+   list-style: none;
+   width: 100%;
+   text-align: right;
+}
+
+nav ul li{
+   display: inline-block;
+   margin: 5px 5px;
+   padding: 15px;
+}
+
+span{
+   color: red;
+}
+
+nav ul li a{
+   color: #fff;
+   text-decoration: none;
+}
+
+nav ul li a:hover{
+   color: red;
+   transition: .2s;
+}
+
+nav ul li i{
+   color: #fff;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form{
+   width: 450px;
+   height: 370px;
+   background-color: #f0f0f0;
+   position: absolute;
+   top: 23%;
+   left: 33%;
+   border-radius: 5px;
+   
+}
+
+.form h2{
+   color: rgb(52, 52, 236);
+   padding: 15px;
+   margin-top: 15px;
+   text-align: center;  
+   border-bottom: 1.5px solid#dcd7d7;
+}
+
+.gmail-div, .pass-div{
+   margin: 40px;
+}
+
+.input-div input{
+   background-color: transparent;
+   width: 350px;
+   border: 0;
+   outline: 0;
+   border-bottom: 1.5px solid#dcd7d7;
+}
+
+.form p{
+   margin-top: 15px;
+   color: grey;
+   font-size: 13px;
+   cursor: pointer;
+}
+
+.form .pass-div p a{
+   text-decoration: none;
+   color: grey;
+   cursor: pointer;
+   color: rgb(52, 52, 236);
+}
+
+.form button{
+   width: 370px;
+   padding: 15px;
+   border-radius: 40px;
+   background-color: rgb(52, 52, 236);
+   color: #fff;
+   margin-left: 40px;
+   cursor: pointer;
+   border: none;
+}
+
+.form button:hover{
+   background-color: rgb(60, 60, 247);
+   transition: all .4s ease;
+}
+
+.sign-o p{
+   text-align: center;
+}
+
+.sign-o p a{
+   color: rgb(52, 52, 236);
+   text-decoration: none;
+}

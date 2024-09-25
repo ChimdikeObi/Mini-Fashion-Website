@@ -1,0 +1,83 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   width: 100vh;
+   height: 100vh;   
+   background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 50%,
+    rgb(52, 52, 236) 50%,
+    rgb(52, 52, 236) 100%
+  );
+}
+
+.container{
+   width: 100%;
+   position: absolute;
+}
+
+.form{
+   width: 450px;
+   height: 370px;
+   border-radius: 5px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+   background-color: #e6e1e1;
+   box-shadow: 2px black;
+}
+
+.form h2{
+   text-align: center;
+   color: rgb(52, 52, 236);
+   margin-top: 15px;
+   border-bottom: 1.5px solid #dcd7d7;
+   padding: 10px;
+}
+
+.fname-div, .lname-div, .user-div, .gmail-div{
+   margin: 30px;
+}
+
+.input-div input{
+   background-color: transparent;
+   width: 350px;
+   border: 0;
+   outline: 0;
+   border-bottom: 1.5px solid#bdb8b8;
+}
+
+.form button{
+   width: 370px;
+   padding: 15px;
+   border-radius: 40px;
+   background-color: rgb(52, 52, 236);
+   color: #fff;
+   margin-left: 40px;
+   cursor: pointer;
+   border: none;
+}
+
+.form button:hover{
+   background-color: rgb(60, 60, 247);
+   transition: all .4s ease;
+}
+
+.login-o p{
+   text-align: center;
+   color: grey;
+   font-size: 13px;
+   margin-top: 5px;
+}
+
+.login-o p a{
+   color: rgb(52, 52, 236);
+   text-decoration: none;
+}
